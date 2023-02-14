@@ -3,26 +3,45 @@
 /*　スマホサイト幅 100%*/
 /* max-width:1920px */
 
-*{
+/* 全体 */
+* {
 	font-family: sans-serif;
-	max-width: 1480px;
+	max-width: 1920px;
 }
 
-header{
+/* ヘッダー */
+header {
+	height: 92px;
+	display: flex;
 	background-color: #043873;
 	color: white;
 }
 
-section{
+header ul {
+	display: flex;
+}
+
+/* 背景 */
+.kv {
+	height: 100vh;
+	background-image: url(./pics/Element.png);
+	background-repeat: center;
+	background-size: cover;
+}
+
+/* メイン */
+
+section {
 	background-color: #043873;
 	color: white;
 }
 
 
-h1{
+h1 {
 	font-size: 72px;
 }
-p2{
+
+p2 {
 	font-size: 18px;
 }
 
@@ -34,4 +53,3 @@ p2{
 /* ボタンホバーは class =　btn で作る*/
 /* ログインボタン:#ffe492 　黄色*/
 /* 黄色ボタン　class= head-btn */
-
