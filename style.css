@@ -7,6 +7,18 @@
 	font-family: sans-serif;
 	max-width: 1480px;
 }
+
+header{
+	background-color: #043873;
+	color: white;
+}
+
+section{
+	background-color: #043873;
+	color: white;
+}
+
+
 h1{
 	font-size: 72px;
 }
