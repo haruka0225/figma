@@ -13,16 +13,11 @@
 	margin-right: 220px;*/
 	
 } 
-section{
-	background-color: #043873;
-	width: 100%;
-}
-section1 {
-	background-color: white;
-}
+
 body{
 	margin: 0 auto;
 	width: 77%;
+
 }
 
 /* ヘッダー */
@@ -35,13 +30,13 @@ header {
 
 header ul {
 	display: flex;
-	
+
 }
 * .PM {
 	background-color: transparent;
 } 
 
-.header-left{
+.header-left {
 	margin-left: 220px;
 }
 
@@ -69,18 +64,35 @@ section1 {
 h1 {
 	font-size: 72px;
 }
-h5{
+
+h5 {
 	font-size: 25px;
 }
-p1{
+
+p1 {
 	font-size: 24px;
 }
+
 p2 {
 	font-size: 18px;
 }
-p3{
+
+p3 {
 	font-size: 16px;
 }
+
+/* 1 */
+.dis {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.p {
+	display: block;
+}
+
+
 
 /* hover:0.7 */
 
@@ -88,27 +100,37 @@ p3{
 
 /* 青いボタンの色:#4f9cf9 */
 /* ボタンホバーは class =　btn で作る*/
-.btn{
+.btn {
 	background-color: #4f9cf9;
 	border-radius: 8px;
 	padding: 16px 24px;
 }
-.GMD .btn{
+
+.GMD .btn {
 	padding: 20px;
 }
-.PM .btn, .WT .btn, .UAE .btn,
-.CI .btn, .container_1st .btn,
-.container_2nd .btn, .container_3rd .btn,
-.container_4th .btn, .container_5th .btn,
-.container_6th .btn, footer .btn{
+
+.PM .btn,
+.WT .btn,
+.UAE .btn,
+.CI .btn,
+.container_1st .btn,
+.container_2nd .btn,
+.container_3rd .btn,
+.container_4th .btn,
+.container_5th .btn,
+.container_6th .btn,
+footer .btn {
 	padding: 20px 40px;
 }
-.CYP .btn{
+
+.CYP .btn {
 	padding: 16px 40px;
 }
+
 /* ログインボタン:#ffe492 　黄色*/
 /* 黄色ボタン　class= head-btn */
-.head-btn{
+.head-btn {
 	background-color: #ffe492;
 	border-radius: 8px;
 	padding: 16px 40px;
