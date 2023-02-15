@@ -5,6 +5,7 @@
 
 /* 全体 */
 * {
+	/* font-family: 'Inter'; */
 	font-family: sans-serif;
 	max-width: 1920px;
 	text-align: center;
@@ -36,9 +37,7 @@ header ul {
 	background-color: transparent;
 } 
 
-.header-left {
-	margin-left: 220px;
-}
+
 
 
 /* 背景 */
