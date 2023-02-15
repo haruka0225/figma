@@ -7,7 +7,9 @@
 * {
 	font-family: sans-serif;
 	max-width: 1920px;
-}
+	/* margin-left: 220px;
+	margin-right: 220px;*/
+} 
 
 /* ヘッダー */
 header {
@@ -19,7 +21,14 @@ header {
 
 header ul {
 	display: flex;
+	
 }
+
+
+.header-left{
+	margin-left: 220px;
+}
+
 
 /* 背景 */
 .kv {
