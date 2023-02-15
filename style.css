@@ -8,9 +8,18 @@
 	font-family: sans-serif;
 	max-width: 1920px;
 	text-align: center;
+	/* background-color: #043873; */
 	/* margin-left: 220px;
 	margin-right: 220px;*/
+	
 } 
+section{
+	background-color: #043873;
+	width: 100%;
+}
+section1 {
+	background-color: white;
+}
 body{
 	margin: 0 auto;
 	width: 77%;
@@ -28,7 +37,9 @@ header ul {
 	display: flex;
 	
 }
-
+* .PM {
+	background-color: transparent;
+} 
 
 .header-left{
 	margin-left: 220px;
@@ -51,8 +62,7 @@ section {
 }
 
 section1 {
-	background-color: white;;
-	
+	background-color: white;
 }
 
 
