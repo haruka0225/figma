@@ -40,9 +40,17 @@ section {
 h1 {
 	font-size: 72px;
 }
-
+h5{
+	font-size: 25px;
+}
+p1{
+	font-size: 24px;
+}
 p2 {
 	font-size: 18px;
+}
+p3{
+	font-size: 16px;
 }
 
 /* hover:0.7 */
@@ -51,5 +59,9 @@ p2 {
 
 /* 青いボタンの色:#4f9cf9 */
 /* ボタンホバーは class =　btn で作る*/
+.btn{
+	background-color: #4f9cf9;
+	border-radius: 8px;
+}
 /* ログインボタン:#ffe492 　黄色*/
 /* 黄色ボタン　class= head-btn */
