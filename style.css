@@ -81,8 +81,15 @@ p3{
 .GMD .btn{
 	padding: 20px;
 }
-.PM .btn{
+.PM .btn, .WT .btn, .UAE .btn,
+.CI .btn, .container_1st .btn,
+.container_2nd .btn, .container_3rd .btn,
+.container_4th .btn, .container_5th .btn,
+.container_6th .btn, footer .btn{
 	padding: 20px 40px;
+}
+.CYP .btn{
+	padding: 16px 40px;
 }
 /* ログインボタン:#ffe492 　黄色*/
 /* 黄色ボタン　class= head-btn */
