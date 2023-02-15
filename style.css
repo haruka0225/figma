@@ -3,6 +3,11 @@
 /*　スマホサイト幅 100%*/
 /* max-width:1920px */
 
+/* @media (min-width: 1280px) {
+	header, section, footer{
+		padding: 1rem calc(50% - (1280px / 2));
+	} */
+/* } */
 /* 全体 */
 * {
 	/* font-family: 'Inter'; */
@@ -18,7 +23,6 @@
 body{
 	margin: 0 auto;
 	width: 77%;
-
 }
 
 /* ヘッダー */
@@ -133,4 +137,12 @@ footer .btn {
 	background-color: #ffe492;
 	border-radius: 8px;
 	padding: 16px 40px;
+}
+
+/* shotaro's 最初 */
+.container_1st{
+	/* padding: 140px 220px; */
+}
+.container_1st h1{
+	/* font-weight: 700; */
 }
