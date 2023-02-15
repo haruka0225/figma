@@ -11,6 +11,10 @@
 	/* margin-left: 220px;
 	margin-right: 220px;*/
 } 
+body{
+	margin: 0 auto;
+	width: 77%;
+}
 
 /* ヘッダー */
 header {
