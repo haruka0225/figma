@@ -31,12 +31,27 @@ header {
 	display: flex;
 	background-color: #043873;
 	color: white;
+	justify-content: flex-end;
 }
 
 header ul {
 	display: flex;
-
+	justify-content: space-between;
+	align-items: center;
+	
 }
+
+.header-left{
+	margin-right : auto ; 
+} 
+
+/* ul li{
+	
+	display: flex;
+	justify-content: flex-end;
+	
+	} */
+
 
 * .PM {
 	background-color: transparent;
