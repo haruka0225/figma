@@ -151,11 +151,19 @@ p3 {
 	background-color: #4f9cf9;
 	border-radius: 8px;
 	padding: 16px 24px;
+	&:hover{
+		opacity: 0.7 ;
+	}
 }
+
 
 .GMD .btn {
 	padding: 20px;
+	&:hover{
+		opacity: 0.7 ;
+	}
 }
+
 
 .PM .btn,
 .WT .btn,
@@ -169,11 +177,20 @@ p3 {
 .container_6th .btn,
 footer .btn {
 	padding: 20px 40px;
+
+	&:hover{
+		opacity: 0.7 ;
+	}
 }
 
 .CYP .btn {
 	padding: 16px 40px;
+
+	&:hover{
+		opacity: 0.7 ;
+	}
 }
+
 
 /* ログインボタン:#ffe492 　黄色*/
 /* 黄色ボタン　class= head-btn */
@@ -182,6 +199,11 @@ footer .btn {
 	border-radius: 8px;
 	padding: 16px 40px;
 }
+
+.head-btn:hover {
+	opacity: 0.7 ;
+}
+
 
 /* 全体のbox間を並べる */
 .corners {

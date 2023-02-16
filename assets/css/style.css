@@ -37,8 +37,6 @@ header {
   margin-right: auto;
   margin-left: 220px;
 }
-/* リンク */
-
 
 /* 背景 */
 .GMD {
@@ -126,9 +124,15 @@ p3 {
   border-radius: 8px;
   padding: 16px 24px;
 }
+.btn:hover {
+  opacity: 0.7;
+}
 
 .GMD .btn {
   padding: 20px;
+}
+.GMD .btn:hover {
+  opacity: 0.7;
 }
 
 .PM .btn,
@@ -144,9 +148,25 @@ p3 {
 footer .btn {
   padding: 20px 40px;
 }
+.PM .btn:hover,
+.WT .btn:hover,
+.UAE .btn:hover,
+.CI .btn:hover,
+.container_1st .btn:hover,
+.container_2nd .btn:hover,
+.container_3rd .btn:hover,
+.container_4th .btn:hover,
+.container_5th .btn:hover,
+.container_6th .btn:hover,
+footer .btn:hover {
+  opacity: 0.7;
+}
 
 .CYP .btn {
   padding: 16px 40px;
+}
+.CYP .btn:hover {
+  opacity: 0.7;
 }
 
 /* ログインボタン:#ffe492 　黄色*/
@@ -155,6 +175,10 @@ footer .btn {
   background-color: #ffe492;
   border-radius: 8px;
   padding: 16px 40px;
+}
+
+.head-btn:hover {
+  opacity: 0.7;
 }
 
 /* 全体のbox間を並べる */
