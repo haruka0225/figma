@@ -1,0 +1,242 @@
+/* スマホ表示767px */
+/* サイト幅 77%*/
+/*　スマホサイト幅 100%*/
+/* max-width:1920px */
+
+/* @media (min-width: 1280px) {
+	header, section, footer{
+		padding: 1rem calc(50% - (1280px / 2));
+	} */
+/* } */
+/* 全体 */
+* {
+	/* font-family: 'Inter'; */
+	font-family: sans-serif;
+	max-width: 1920px;
+	text-align: center;
+	/* background-color: #043873; */
+	/* margin-left: 220px;
+	margin-right: 220px;*/
+	/* box-sizing: border-box; */
+} 
+
+/* body{
+	margin: 0 auto;
+	width: 77%;
+} */
+
+/* ヘッダー */
+header {
+	height: 92px;
+	display: flex;
+	background-color: #043873;
+	color: white;
+}
+
+header ul {
+	display: flex;
+
+}
+/* * .PM {
+	background-color: transparent;
+}  */
+
+
+
+
+/* */
+.kv {
+	height: 100vh;
+	background-image: url(./pics/Element.png);
+	background-repeat: center;
+	background-size: cover;
+} 
+
+/* メイン */
+
+section, footer {
+	background-color: #043873;
+	color: white;
+	/* padding: 140px 0; */
+}
+
+section1 {
+	background-color: white;
+	/* padding: 140px 0; */
+}
+
+
+h1 {
+	font-size: 45px;
+	font-weight: 800;
+}
+
+h5 {
+	font-size: 25px;
+}
+
+p1 {
+	font-size: 16px;
+}
+
+p2 {
+	font-size: 12px;
+}
+
+p3 {
+	font-size: 10px;
+}
+
+/* 1 */
+.dis {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 140px 0;
+}
+
+.p {
+	display: block;
+}
+	
+	/* 6 */
+
+	.plancontainer{
+		display: flex;	
+		padding: 140px 0;
+	}
+
+
+
+
+
+
+
+/* hover:0.7 */
+
+/* backgroundcolor青: #043873 */
+
+/* 青いボタンの色:#4f9cf9 */
+/* ボタンホバーは class =　btn で作る*/
+.btn {
+	background-color: #4f9cf9;
+	border-radius: 8px;
+	padding: 16px 24px;
+}
+
+.GMD .btn {
+	padding: 20px;
+}
+
+.PM .btn,
+.WT .btn,
+.UAE .btn,
+.CI .btn,
+.container_1st .btn,
+.container_2nd .btn,
+.container_3rd .btn,
+.container_4th .btn,
+.container_5th .btn,
+.container_6th .btn,
+footer .btn {
+	padding: 20px 40px;
+}
+
+.CYP .btn {
+	padding: 16px 40px;
+}
+
+/* ログインボタン:#ffe492 　黄色*/
+/* 黄色ボタン　class= head-btn */
+.head-btn {
+	background-color: #ffe492;
+	border-radius: 8px;
+	padding: 16px 40px;
+}
+/* 全体のbox間を並べる */
+.corners{
+	display: flex;
+	flex-direction: column;
+}
+/* shotaro's 最初 */
+/* --7-- */
+.container_1st, .container_2nd,
+.container_3rd, .container_4th,
+.container_5th{
+	/* margin: 0 auto; */
+	padding: 120px 40px;
+	
+}
+.haba{
+	margin: 0 auto;
+	width: 77%;
+}
+.haba .detail{
+	margin: 0 auto;
+	width: 77%;
+}
+.haba .btn{
+	margin-top: 60px;
+}
+
+/* --8-- */
+.container_2nd .haba{
+	display: flex;
+	padding: 0;
+}
+.haba .words{
+	flex-basis: 55%;
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+	flex-direction: column;
+}
+.haba .halffan{
+	flex-basis: 45%;
+}
+
+/* --9-- */
+.container_3rd .figures{
+	margin-top: 60px;
+	display: flex;
+	justify-content: space-around;
+}
+
+/* --10-- */
+.container_4th .haba{
+	display: flex;
+}
+.exp{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: flex-start;
+}
+
+/* --11-- */
+.container_5th h1{
+	margin-bottom: 40px;
+}
+.container_5th .boxes{
+	display: flex;
+	justify-content: space-around;
+}
+.box1, .box2, .box3{
+	border-radius: 10px;
+}
+.box2, .box3{
+	background-color: #4F9CF9;
+	color: #ffff;
+}
+
+.container_5th .slider_img{
+	margin-top: 40px;
+}
+
+/* --12-- */
+.container_6th, footer{
+	padding: 120px 40px 0 40px;
+}
+.container_6th h1 span{
+	display: block;
+}
