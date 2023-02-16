@@ -13,7 +13,6 @@
   /* font-family: 'Inter'; */
   font-family: sans-serif;
   max-width: 1920px;
-  text-align: center;
   /* background-color: #043873; */
   /* margin-left: 220px;
   margin-right: 220px;*/
@@ -22,30 +21,21 @@
 /* ヘッダー */
 header {
   height: 92px;
-  display: flex;
   background-color: #043873;
   color: white;
+  display: flex;
   justify-content: flex-end;
 }
 
-header ul {
+.header-right ul {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  margin-right: 220px;
 }
 
 .header-left {
   margin-right: auto;
-}
-
-/* ul li{
-
-	display: flex;
-	justify-content: flex-end;
-
-	} */
-* .PM {
-  background-color: transparent;
+  margin-left: 220px;
 }
 
 /* 背景 */
@@ -57,15 +47,18 @@ header ul {
 }
 
 /* メイン */
-section, footer {
+section,
+footer {
   background-color: #043873;
   color: white;
   padding: 140px 0;
+  text-align: center;
 }
 
 section1 {
   background-color: white;
   padding: 140px 0;
+  text-align: center;
 }
 
 h1 {
@@ -116,7 +109,10 @@ p3 {
   border: 1px solid #FFE492;
   border-radius: 10px;
   padding: 40px 44px;
-  text-align: left;
+}
+
+.plan1 {
+  text-align: center;
 }
 
 /* hover:0.7 */
@@ -166,8 +162,10 @@ footer .btn {
 }
 
 /* shotaro's 最初 */
-.container_1st, .container_2nd,
-.container_3rd, .container_4th,
+.container_1st,
+.container_2nd,
+.container_3rd,
+.container_4th,
 .container_5th {
   /* margin: 0 auto; */
   padding: 120px 40px;
@@ -234,11 +232,14 @@ footer .btn {
   justify-content: space-around;
 }
 
-.box1, .box2, .box3 {
+.box1,
+.box2,
+.box3 {
   border-radius: 10px;
 }
 
-.box2, .box3 {
+.box2,
+.box3 {
   background-color: #4F9CF9;
   color: white;
 }
@@ -248,7 +249,8 @@ footer .btn {
 }
 
 /* --12-- */
-.container_6th, footer {
+.container_6th,
+footer {
   padding: 120px 40px 0 40px;
 }
 
