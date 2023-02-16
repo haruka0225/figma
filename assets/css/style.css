@@ -30,12 +30,21 @@ header {
 .header-right ul {
   display: flex;
   align-items: center;
+  padding: 16px 0;
   margin-right: 220px;
+  margin-top: 10px;
+}
+
+.header-right li {
+  padding: 0 10px;
 }
 
 .header-left {
   margin-right: auto;
+  text-align: center;
+  padding: 16px 0;
   margin-left: 220px;
+  margin-top: 20px;
 }
 
 /* 背景 */
@@ -116,8 +125,13 @@ p3 {
   text-align: center;
 }
 
-/* hover:0.7 */
+#personal {
+  background-color: #043873;
+  color: white;
+}
+
 /* backgroundcolor青: #043873 */
+/* hover:0.7 */
 /* 青いボタンの色:#4f9cf9 */
 /* ボタンホバーは class =　btn で作る*/
 .btn {

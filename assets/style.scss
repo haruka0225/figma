@@ -35,15 +35,23 @@ header {
 	justify-content: flex-end;
 }
 
-.header-right  ul{
+.header-right ul {
 	display: flex;
 	align-items: center;
+	padding: 16px  0;
 	margin-right: 220px;
-}
+	margin-top: 10px;
 
+}
+.header-right li {
+padding: 0 10px;
+}
 .header-left {
 	margin-right: auto;
+	text-align: center;
+	padding: 16px 0;
 	margin-left: 220px;
+	margin-top: 20px;
 }
 
 
@@ -85,6 +93,7 @@ h1 {
 h4 {
 	font-size: 36px;
 }
+
 h5 {
 	font-size: 25px;
 }
@@ -100,6 +109,7 @@ p2 {
 p3 {
 	font-size: 10px;
 }
+
 /* 1 */
 .dis {
 	display: flex;
@@ -126,22 +136,26 @@ p3 {
 	border: 1px solid #FFE492;
 	border-radius: 10px;
 	padding: 40px 44px;
-	
-	
+
+
 }
 
-.plan1{
+.plan1 {
 	text-align: center;
 }
 
+#personal {
+	background-color: #043873;
+	color: white;
+
+}
 
 
 
 
-
-/* hover:0.7 */
 
 /* backgroundcolor青: #043873 */
+/* hover:0.7 */
 
 /* 青いボタンの色:#4f9cf9 */
 /* ボタンホバーは class =　btn で作る*/
@@ -149,16 +163,18 @@ p3 {
 	background-color: #4f9cf9;
 	border-radius: 8px;
 	padding: 16px 24px;
-	&:hover{
-		opacity: 0.7 ;
+
+	&:hover {
+		opacity: 0.7;
 	}
 }
 
 
 .GMD .btn {
 	padding: 20px;
-	&:hover{
-		opacity: 0.7 ;
+
+	&:hover {
+		opacity: 0.7;
 	}
 }
 
@@ -176,16 +192,16 @@ p3 {
 footer .btn {
 	padding: 20px 40px;
 
-	&:hover{
-		opacity: 0.7 ;
+	&:hover {
+		opacity: 0.7;
 	}
 }
 
 .CYP .btn {
 	padding: 16px 40px;
 
-	&:hover{
-		opacity: 0.7 ;
+	&:hover {
+		opacity: 0.7;
 	}
 }
 
@@ -199,7 +215,7 @@ footer .btn {
 }
 
 .head-btn:hover {
-	opacity: 0.7 ;
+	opacity: 0.7;
 }
 
 
@@ -270,10 +286,12 @@ footer .btn {
 	align-items: flex-start;
 	justify-content: flex-start;
 }
-.container_4th .img{
+
+.container_4th .img {
 	width: 700px;
 }
-.container_4th img{
+
+.container_4th img {
 	width: 700px;
 }
 
@@ -303,35 +321,42 @@ footer .btn {
 }
 
 
-.box1 .info{
+.box1 .info {
 	padding-bottom: 20px;
 	border-bottom: 1px solid black;
 }
-.box2 .info{
+
+.box2 .info {
 	padding-bottom: 20px;
 	border-bottom: 1px solid black;
 }
-.box3 .info{
+
+.box3 .info {
 	padding-bottom: 20px;
 	border-bottom: 1px solid black;
 }
-.info img{
+
+.info img {
 	margin-bottom: 15px;
 }
 
 .container_5th .slider_img {
 	margin-top: 40px;
 }
-.persona{
+
+.persona {
 	padding-top: 40px;
 	display: flex;
 }
-.img_persona{
+
+.img_persona {
 	width: 200px;
 }
-.img_persona img{
+
+.img_persona img {
 	width: 200px;
 }
+
 /* --12-- */
 .container_6th,
 footer {
