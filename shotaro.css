@@ -17,10 +17,10 @@
 	/* background-color: #043873; */
 	/* margin-left: 220px;
 	margin-right: 220px;*/
+	
+} 
 
-}
-
-body {
+body{
 	margin: 0 auto;
 	width: 77%;
 }
@@ -31,31 +31,15 @@ header {
 	display: flex;
 	background-color: #043873;
 	color: white;
-	justify-content: flex-end;
 }
 
 header ul {
 	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	
+
 }
-
-.header-left{
-	margin-right : auto ; 
-} 
-
-/* ul li{
-	
-	display: flex;
-	justify-content: flex-end;
-	
-	} */
-
-
 * .PM {
 	background-color: transparent;
-}
+} 
 
 
 
@@ -86,9 +70,6 @@ h1 {
 	font-size: 50px;
 	font-weight: 500;
 }
-h4{
-	font-size: 36px;
-}
 
 h5 {
 	font-size: 25px;
@@ -117,21 +98,13 @@ p3 {
 .p {
 	display: block;
 }
+	
+	/* 6 */
 
-/* 6 */
-
-.plancontainer {
-	display: flex;
-	padding: 140px 0;
-}
-
-.plan {
-	box-sizing: border-box;
-	background: #FFFFFF;
-	border: 1px solid #FFE492;
-	border-radius: 10px;
-	padding: 40px 44px;
-}
+	.plancontainer{
+		display: flex;	
+		padding: 140px 0;
+	}
 
 
 
@@ -182,10 +155,9 @@ footer .btn {
 }
 
 /* shotaro's 最初 */
-.container_1st {
-	/* padding: 140px 220px; */
+.container_1st{
+	padding: 60px 40px;
 }
-
-.container_1st h1 {
+.container_1st h1{
 	/* font-weight: 700; */
 }
