@@ -1,8 +1,5 @@
 /* スマホ表示767px */
 /* サイト幅 77%*/
-$haba-width:77%;
-$haba-margin:0 auto;
-
 /*　スマホサイト幅 100%*/
 /* max-width:1920px */
 
@@ -20,13 +17,13 @@ $haba-margin:0 auto;
 	/* background-color: #043873; */
 	/* margin-left: 220px;
 	margin-right: 220px;*/
+	/* box-sizing: border-box; */
+} 
 
-}
-
-// body {
-// 	margin: 0 auto;
-// 	width: 77%;
-// }
+/* body{
+	margin: 0 auto;
+	width: 77%;
+} */
 
 /* ヘッダー */
 header {
@@ -34,63 +31,44 @@ header {
 	display: flex;
 	background-color: #043873;
 	color: white;
-	justify-content: flex-end;
 }
 
 header ul {
 	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	
+
 }
-
-.header-left{
-	margin-right : auto ; 
-} 
-
-/* ul li{
-	
-	display: flex;
-	justify-content: flex-end;
-	
-	} */
-
-
-* .PM {
+/* * .PM {
 	background-color: transparent;
-}
+}  */
 
 
 
 
-/* 背景 */
-.GMD {
+/* */
+.kv {
 	height: 100vh;
-	background-image: url(./Element.png);
+	background-image: url(./pics/Element.png);
 	background-repeat: center;
 	background-size: cover;
-}
+} 
 
 /* メイン */
 
 section, footer {
 	background-color: #043873;
 	color: white;
-	padding: 140px 0;
+	/* padding: 140px 0; */
 }
-
 
 section1 {
 	background-color: white;
-	padding: 140px 0;
+	/* padding: 140px 0; */
 }
 
 
 h1 {
-	font-size: 72px;
-}
-h4{
-	font-size: 36px;
+	font-size: 45px;
+	font-weight: 800;
 }
 
 h5 {
@@ -98,15 +76,15 @@ h5 {
 }
 
 p1 {
-	font-size: 24px;
+	font-size: 16px;
 }
 
 p2 {
-	font-size: 18px;
+	font-size: 12px;
 }
 
 p3 {
-	font-size: 16px;
+	font-size: 10px;
 }
 
 /* 1 */
@@ -120,22 +98,13 @@ p3 {
 .p {
 	display: block;
 }
+	
+	/* 6 */
 
-/* 6 */
-
-.plancontainer {
-	display: flex;
-	padding: 140px 0;
-}
-
-.plan {
-	box-sizing: border-box;
-	background: #FFFFFF;
-	border: 1px solid #FFE492;
-	border-radius: 10px;
-	padding: 40px 44px;
-	text-align:left;
-}
+	.plancontainer{
+		display: flex;	
+		padding: 140px 0;
+	}
 
 
 
@@ -184,13 +153,13 @@ footer .btn {
 	border-radius: 8px;
 	padding: 16px 40px;
 }
-
 /* 全体のbox間を並べる */
 .corners{
 	display: flex;
 	flex-direction: column;
 }
 /* shotaro's 最初 */
+/* --7-- */
 .container_1st, .container_2nd,
 .container_3rd, .container_4th,
 .container_5th{
