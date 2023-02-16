@@ -20,10 +20,10 @@
 
 }
 
-body {
+/* body {
 	margin: 0 auto;
 	width: 77%;
-}
+} */
 
 /* ヘッダー */
 header {
@@ -70,7 +70,7 @@ header ul {
 
 /* メイン */
 
-section {
+section, footer {
 	background-color: #043873;
 	color: white;
 	padding: 140px 0;
@@ -181,11 +181,89 @@ footer .btn {
 	padding: 16px 40px;
 }
 
+/* 全体のbox間を並べる */
+.corners{
+	display: flex;
+	flex-direction: column;
+}
 /* shotaro's 最初 */
-.container_1st {
-	/* padding: 140px 220px; */
+.container_1st, .container_2nd,
+.container_3rd, .container_4th,
+.container_5th{
+	/* margin: 0 auto; */
+	padding: 120px 40px;
+	
+}
+.haba{
+	margin: 0 auto;
+	width: 77%;
+}
+.haba .detail{
+	margin: 0 auto;
+	width: 77%;
+}
+.haba .btn{
+	margin-top: 60px;
 }
 
-.container_1st h1 {
-	/* font-weight: 700; */
+/* --8-- */
+.container_2nd .haba{
+	display: flex;
+	padding: 0;
+}
+.haba .words{
+	flex-basis: 55%;
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+	flex-direction: column;
+}
+.haba .halffan{
+	flex-basis: 45%;
+}
+
+/* --9-- */
+.container_3rd .figures{
+	margin-top: 60px;
+	display: flex;
+	justify-content: space-around;
+}
+
+/* --10-- */
+.container_4th .haba{
+	display: flex;
+}
+.exp{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: flex-start;
+}
+
+/* --11-- */
+.container_5th h1{
+	margin-bottom: 40px;
+}
+.container_5th .boxes{
+	display: flex;
+	justify-content: space-around;
+}
+.box1, .box2, .box3{
+	border-radius: 10px;
+}
+.box2, .box3{
+	background-color: #4F9CF9;
+	color: #ffff;
+}
+
+.container_5th .slider_img{
+	margin-top: 40px;
+}
+
+/* --12-- */
+.container_6th, footer{
+	padding: 120px 40px 0 40px;
+}
+.container_6th h1 span{
+	display: block;
 }
