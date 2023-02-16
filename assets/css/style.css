@@ -231,66 +231,6 @@ footer .btn {
   width: 700px;
 }
 
-/* --11-- */
-.container_5th h1 {
-  margin-bottom: 40px;
-}
-
-.container_5th .boxes {
-  display: flex;
-}
-
-.box1,
-.box2,
-.box3 {
-  border-radius: 10px;
-  padding: 40px 20px;
-  margin-left: 20px;
-  margin-right: 20px;
-}
-
-.box2,
-.box3 {
-  background-color: #4F9CF9;
-  color: white;
-}
-
-.box1 .info {
-  padding-bottom: 20px;
-  border-bottom: 1px solid black;
-}
-
-.box2 .info {
-  padding-bottom: 20px;
-  border-bottom: 1px solid black;
-}
-
-.box3 .info {
-  padding-bottom: 20px;
-  border-bottom: 1px solid black;
-}
-
-.info img {
-  margin-bottom: 15px;
-}
-
-.container_5th .slider_img {
-  margin-top: 40px;
-}
-
-.persona {
-  padding-top: 40px;
-  display: flex;
-}
-
-.img_persona {
-  width: 200px;
-}
-
-.img_persona img {
-  width: 200px;
-}
-
 /* --12-- */
 .container_6th,
 footer {
