@@ -399,14 +399,14 @@ body{
 	display: flex;
 	// justify-content: space-around;
 }
-
+.boxes{
+	gap: 38px;
+}
 .box1,
 .box2,
 .box3 {
 	border-radius: 10px;
 	padding: 40px 20px;
-	margin-left: 20px;
-	margin-right: 20px;
 	.info_persona p1{
 		padding-bottom: 15px;
 	}
