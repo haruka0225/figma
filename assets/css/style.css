@@ -104,6 +104,21 @@ p3 {
 }
 
 /* 文字の下ライン */
+.line1 {
+  position: relative;
+}
+
+.line1 img {
+  width: 600px;
+  /* divの幅に対する割合 */
+}
+
+#line-1 {
+  position: absolute;
+  left: 0%;
+  top: -180px;
+}
+
 /* 1 */
 .dis {
   display: flex;
@@ -111,6 +126,7 @@ p3 {
   align-items: center;
   padding: 140px 0;
   text-align: left;
+  gap: 60px;
 }
 
 .p {
