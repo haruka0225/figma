@@ -117,6 +117,22 @@ p3 {
   display: block;
 }
 
+/* 2 */
+.p {
+  width: 50%;
+}
+
+.pic {
+  width: 50%;
+}
+.picimg {
+  width: 100%;
+}
+
+.UAE-p {
+  width: 697px;
+}
+
 /* 6 */
 .plancontainer {
   display: flex;
