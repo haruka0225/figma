@@ -350,4 +350,38 @@ footer {
 
 .container_6th h1 span {
   display: block;
+}
+
+.container_6th .haba {
+  display: flex;
+  flex-direction: column;
+}
+.container_6th .haba .app-icon img {
+  width: 50px;
+}
+
+.informacion {
+  display: flex;
+}
+
+.btm {
+  display: flex;
+  justify-content: space-between;
+  padding: 32px 0;
+  height: 20px;
+}
+.btm .terms_condition {
+  display: flex;
+}
+.btm .terms_condition p3 {
+  margin-right: 60px;
+}
+.btm .social_icons {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  height: 20px;
+}
+.btm .language {
+  gap: 60px;
 }/*# sourceMappingURL=style.css.map */

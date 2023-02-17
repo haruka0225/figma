@@ -378,8 +378,6 @@ footer .btn {
 	color: #ffff;
 }
 
-
-
 .box1 .info {
 	padding-bottom: 20px;
 	border-bottom: 1px solid black;
@@ -425,4 +423,43 @@ footer {
 
 .container_6th h1 span {
 	display: block;
+}
+
+.container_6th .haba{
+	display: flex;
+	flex-direction: column;
+	.app-icon img{
+		width: 50px;
+	}
+}
+
+// footer
+.informacion{
+	display: flex;
+}
+// .aboutlogo p2{
+// 	margin-top: 15px;
+// }
+
+.btm{
+	display: flex;
+	justify-content: space-between;
+	padding: 32px 0;
+	height: 20px;
+	.terms_condition{
+		display: flex;
+		p3{
+			margin-right: 60px;
+		}
+	}
+	.social_icons{
+		display: flex;
+		flex-direction: row;
+		gap: 32px;
+		height: 20px;
+	}
+	.language{
+		gap: 60px;
+	}
+
 }
