@@ -126,6 +126,7 @@ p3 {
   align-items: center;
   padding: 140px 0;
   text-align: left;
+  gap: 60px;
 }
 
 .p {
