@@ -116,7 +116,7 @@ p3 {
 
 
 /* 文字の下ライン */
-
+/* PM */
 .line1 {
 	position: relative;
 
@@ -132,22 +132,23 @@ p3 {
 	left: 0%;
 	top: -180px;
 }
+/* WT */
+.line2 {
+	position: relative;
 
-// .line2 {
-// 	position: relative;
+}
 
-// }
+.line2 img {
+	margin-left: 210px;
+	width: 350px;
+	/* divの幅に対する割合 */
+}
 
-// .line2 img {
-// 	width: 30%;
-// 	/* divの幅に対する割合 */
-// }
-
-// #line-2 {
-// 	position: absolute;
-// 	left: 25%;
-// 	top: -180%;
-// }
+#line-2 {
+	position: absolute;
+	left: -10px;
+	top: -80px;
+}
 
 // .line3 {
 // 	position: relative;
