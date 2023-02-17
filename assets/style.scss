@@ -87,32 +87,29 @@ section1 {
 	text-align: center;
 }
 
-// フォントサイズ figmaのとおり
 h1 {
-	font-size: 72px;
-	font-weight: 700;
+	font-size: 45px;
+	font-weight: 800;
 }
-h2{
-	font-size: 64px;
-	font-weight: 700;
-}
+
 h4 {
 	font-size: 36px;
 }
+
 h5 {
 	font-size: 25px;
 }
+
 p1 {
-	font-size: 24px;
-	font-weight: 400;
-}
-p2 {
-	font-size: 18px;
-	font-weight: 400;
-}
-p3 {
 	font-size: 16px;
-	font-weight: 400;
+}
+
+p2 {
+	font-size: 12px;
+}
+
+p3 {
+	font-size: 10px;
 }
 
 /* 文字の下ライン */
@@ -178,11 +175,6 @@ p3 {
 
 .p {
 	display: block;
-}
-
-/* 3 */
-#line-p{
-	margin-left: 100px;
 }
 
 /* 6 */
@@ -358,30 +350,32 @@ footer .btn {
 	width: 700px;
 }
 
-/* --11-- */
-.container_5th h1 {
-	margin-bottom: 40px;
-}
+// /* --11-- */
+// .container_5th h1 {
+// 	margin-bottom: 40px;
+// }
 
-.container_5th .boxes {
-	display: flex;
-	// justify-content: space-around;
-}
+// .container_5th .boxes {
+// 	display: flex;
+// 	// justify-content: space-around;
+// }
 
-.box1,
-.box2,
-.box3 {
-	border-radius: 10px;
-	padding: 40px 20px;
-	margin-left: 20px;
-	margin-right: 20px;
-}
+// .box1,
+// .box2,
+// .box3 {
+// 	border-radius: 10px;
+// 	padding: 40px 20px;
+// 	margin-left: 20px;
+// 	margin-right: 20px;
+// }
 
-.box2,
-.box3 {
-	background-color: #4F9CF9;
-	color: #ffff;
-}
+// .box2,
+// .box3 {
+// 	background-color: #4F9CF9;
+// 	color: #ffff;
+// }
+
+
 
 .box1 .info {
 	padding-bottom: 20px;
@@ -428,43 +422,4 @@ footer {
 
 .container_6th h1 span {
 	display: block;
-}
-
-.container_6th .haba{
-	display: flex;
-	flex-direction: column;
-	.app-icon img{
-		width: 50px;
-	}
-}
-
-// footer
-.informacion{
-	display: flex;
-}
-// .aboutlogo p2{
-// 	margin-top: 15px;
-// }
-
-.btm{
-	display: flex;
-	justify-content: space-between;
-	padding: 32px 0;
-	height: 20px;
-	.terms_condition{
-		display: flex;
-		p3{
-			margin-right: 60px;
-		}
-	}
-	.social_icons{
-		display: flex;
-		flex-direction: row;
-		gap: 32px;
-		height: 20px;
-	}
-	.language{
-		gap: 60px;
-	}
-
 }
