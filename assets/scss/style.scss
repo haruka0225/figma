@@ -319,7 +319,14 @@ footer .btn {
 	position: absolute;
 }
 .container_1st .fnp{
-	position: relative;
+	position: absolute;
+	left: -1028.81px;
+	top: 281.47px;
+	opacity: 0.2;
+ transform: rotate(-105deg);
+}
+body{
+	background-image: url(./);
 }
 .haba .detail {
 	margin: 0 auto;
