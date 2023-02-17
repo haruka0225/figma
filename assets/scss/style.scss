@@ -117,21 +117,21 @@ p3 {
 
 /* 文字の下ライン */
 
-// .line1 {
-// 	position: relative;
+.line1 {
+	position: relative;
 
-// }
+}
 
-// .line1 img {
-// 	width: 50%;
-// 	/* divの幅に対する割合 */
-// }
+.line1 img {
+	width: 600px;
+	/* divの幅に対する割合 */
+}
 
-// #line-1 {
-// 	position: absolute;
-// 	left: 0%;
-// 	top: -100%;
-// }
+#line-1 {
+	position: absolute;
+	left: 0%;
+	top: -180px;
+}
 
 // .line2 {
 // 	position: relative;
