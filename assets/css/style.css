@@ -278,6 +278,22 @@ footer .btn:hover {
   width: 77%;
 }
 
+.container_1st {
+  position: absolute;
+}
+
+.container_1st .fnp {
+  position: absolute;
+  left: -1028.81px;
+  top: 281.47px;
+  opacity: 0.2;
+  transform: rotate(-105deg);
+}
+
+body {
+  background-image: url(./);
+}
+
 .haba .detail {
   margin: 0 auto;
   width: 77%;
@@ -332,6 +348,14 @@ footer .btn:hover {
   width: 700px;
 }
 
+.image_apps {
+  width: 582px;
+}
+
+.image_apps img {
+  width: 582px;
+}
+
 /* --11-- */
 .container_5th h1 {
   margin-bottom: 40px;
@@ -349,11 +373,28 @@ footer .btn:hover {
   margin-left: 20px;
   margin-right: 20px;
 }
+.box1 .info_persona p1,
+.box2 .info_persona p1,
+.box3 .info_persona p1 {
+  padding-bottom: 15px;
+}
+
+.box1 {
+  box-shadow: 15px 10px 50px rgba(0, 0, 0, 0.1);
+}
+.box1 .info {
+  padding-bottom: 20px;
+  border-bottom: 1px solid black;
+}
 
 .box2,
 .box3 {
   background-color: #4F9CF9;
   color: white;
+}
+.box2 .info_persona p1,
+.box3 .info_persona p1 {
+  color: black;
 }
 
 .box1 .info {
@@ -363,12 +404,12 @@ footer .btn:hover {
 
 .box2 .info {
   padding-bottom: 20px;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid white;
 }
 
 .box3 .info {
   padding-bottom: 20px;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid white;
 }
 
 .info img {
