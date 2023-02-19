@@ -443,7 +443,7 @@ p3 {
 
 /* shotaro's 最初 */
 // .container_1st,
-.container_4th,
+// .container_4th,
 .container_5th {
 	/* margin: 0 auto; */
 	padding: 120px 0;
@@ -581,10 +581,15 @@ p3 {
 
 /* --10-- */
 .container_4th{
+	padding: 140px 0;
+	background-image: url(../../shotaro_pics/wave.png);
+	background-repeat: no-repeat;
+}
+.container_4th .haba{
 	display: flex;
 	flex-direction: row;
 	align-items: flex-start;
-	padding: 140px 0;
+	// padding: 140px 0;
 	gap: 100px;
 	isolation: isolate;
 }
@@ -593,39 +598,66 @@ p3 {
 	flex-direction: column;
 	align-items: flex-start;
 	justify-content: flex-start;
+	text-align: start;
+	width: 55%;
+	.btn{
+		margin: 60px 1px;
+	}
 }
 
-.container_4th .img {
-	width: 700px;
-}
-
-.container_4th img {
-	width: 700px;
-}
 .image_apps{
-	width: 582px;
+	width: 45%;
 }
-.image_apps img{
-	width: 582px;
-}
+
 
 /* --11-- */
-.container_5th h1 {
-	margin-bottom: 40px;
+.container_5th{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 140px 0;
+	gap: 60px;
+	isolation: isolate;
+	h1 {
+		letter-spacing: normal;
+		margin-bottom: 60px;
+	}
+	.boxes{
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		padding: 0px;
+		gap: 32px;
+	}
+	.info{
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		padding: 60px 40px 0 40px;
+		gap: 32px;
+	}
+	.text{
+		text-align: start;
+	}
+}
+.persona{
+	display: flex;
+	flex-direction: row;
+	align-items: flex-end;
+	padding: 60px 40px;
+	gap: 42px;
+	.info_persona{
+		text-align: start;
+	}
 }
 
-.container_5th .boxes {
-	display: flex;
-	// justify-content: space-around;
-}
-.boxes{
-	gap: 38px;
-}
+
 .box1,
 .box2,
 .box3 {
 	border-radius: 10px;
-	padding: 40px 20px;
+	// padding: 60px 30px;
 	.info_persona p1{
 		padding-bottom: 15px;
 	}
@@ -672,10 +704,10 @@ p3 {
 	margin-top: 40px;
 }
 
-.persona {
-	padding-top: 40px;
-	display: flex;
-}
+// .persona {
+// 	padding-top: 40px;
+// 	display: flex;
+// }
 
 .img_persona {
 	width: 200px;
@@ -687,22 +719,42 @@ p3 {
 
 
 /* --12-- */
-.container_6th,
-footer {
-	padding: 120px 40px 0 40px;
-}
-
-.container_6th h1 span {
-	display: block;
-}
-
-.container_6th .haba{
-	display: flex;
-	flex-direction: column;
-	.app-icon img{
-		width: 50px;
+.container_6th{
+	padding: 140px 0 32px 0;
+	.haba{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding: 0px;
+		gap: 40px;
+		h1 span {
+			display: block;
+		}
+		.btn{
+			padding: 20px 40px;
+			width: 220px;
+		}
+		.app-icon{
+			display: flex;
+			flex-direction: row;
+			align-items: flex-start;
+			padding: 0px;
+			gap: 40px;
+		}
 	}
 }
+// .container_6th,
+// footer {
+// 	padding: 120px 40px 0 40px;
+// }
+
+
+
+// .container_6th .haba{
+// 		.app-icon img{
+// 		width: 50px;
+// 	}
+// }
 
 // footer
 .informacion{
