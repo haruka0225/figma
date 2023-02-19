@@ -32,7 +32,9 @@ header {
 	background-color: #043873;
 	color: white;
 	display: flex;
-	justify-content: flex-end;
+	justify-content: flex-start;
+	width: 100%;
+	
 }
 
 .header-right ul {
@@ -41,26 +43,28 @@ header {
 	padding: 16px 0;
 	margin-right: 220px;
 	margin-top: 10px;
-
 }
 
 .header-right li {
 	padding: 0 10px;
+	
 }
 
 .header-left {
-	margin-right: auto;
-	text-align: center;
-	padding: 16px 0;
-	margin-left: 220px;
+	// margin-right: auto;
+	text-align:center;
+	// padding: 16px 0;
+	// margin-left: 220px;
 	margin-top: 20px;
+	
+
 }
 
 
 
 /* 背景 */
 .GMD {
-	height: 100vh;
+	// height: 100vh;
 	background-image: url(./Element.png);
 	background-repeat: center;
 	background-size: cover;
