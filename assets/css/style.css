@@ -231,7 +231,6 @@ footer .btn:hover {
 }
 
 /* shotaro's 最初 */
-.container_4th,
 .container_5th {
   /* margin: 0 auto; */
   padding: 120px 0;
@@ -347,10 +346,15 @@ footer .btn:hover {
 
 /* --10-- */
 .container_4th {
+  padding: 140px 0;
+  background-image: url(../../shotaro_pics/wave.png);
+  background-repeat: no-repeat;
+}
+
+.container_4th .haba {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  padding: 140px 0;
   gap: 100px;
   isolation: isolate;
 }
@@ -360,42 +364,64 @@ footer .btn:hover {
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
+  text-align: start;
+  width: 55%;
 }
-
-.container_4th .img {
-  width: 700px;
-}
-
-.container_4th img {
-  width: 700px;
+.exp .btn {
+  margin: 60px 1px;
 }
 
 .image_apps {
-  width: 582px;
-}
-
-.image_apps img {
-  width: 582px;
+  width: 45%;
 }
 
 /* --11-- */
-.container_5th h1 {
-  margin-bottom: 40px;
+.container_5th {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 140px 0;
+  gap: 60px;
+  isolation: isolate;
 }
-
+.container_5th h1 {
+  letter-spacing: normal;
+  margin-bottom: 60px;
+}
 .container_5th .boxes {
   display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 32px;
+}
+.container_5th .info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 60px 40px 0 40px;
+  gap: 32px;
+}
+.container_5th .text {
+  text-align: start;
 }
 
-.boxes {
-  gap: 38px;
+.persona {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  padding: 60px 40px;
+  gap: 42px;
+}
+.persona .info_persona {
+  text-align: start;
 }
 
 .box1,
 .box2,
 .box3 {
   border-radius: 10px;
-  padding: 40px 20px;
 }
 .box1 .info_persona p1,
 .box2 .info_persona p1,
@@ -444,11 +470,6 @@ footer .btn:hover {
   margin-top: 40px;
 }
 
-.persona {
-  padding-top: 40px;
-  display: flex;
-}
-
 .img_persona {
   width: 200px;
 }
@@ -458,21 +479,29 @@ footer .btn:hover {
 }
 
 /* --12-- */
-.container_6th,
-footer {
-  padding: 120px 40px 0 40px;
+.container_6th {
+  padding: 140px 0 32px 0;
 }
-
-.container_6th h1 span {
-  display: block;
-}
-
 .container_6th .haba {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 40px;
 }
-.container_6th .haba .app-icon img {
-  width: 50px;
+.container_6th .haba h1 span {
+  display: block;
+}
+.container_6th .haba .btn {
+  padding: 20px 40px;
+  width: 220px;
+}
+.container_6th .haba .app-icon {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 40px;
 }
 
 .informacion {
