@@ -25,7 +25,8 @@ header {
   background-color: #043873;
   color: white;
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-start;
+  width: 100%;
 }
 
 .header-right ul {
@@ -41,10 +42,7 @@ header {
 }
 
 .header-left {
-  margin-right: auto;
   text-align: center;
-  padding: 16px 0;
-  margin-left: 220px;
   margin-top: 20px;
 }
 
@@ -103,7 +101,95 @@ p3 {
   font-weight: 400;
 }
 
+/* フォントサイズレスポンシブ */
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 36px;
+    font-weight: 350;
+  }
+  h2 {
+    font-size: 32px;
+    font-weight: 350;
+  }
+  h4 {
+    font-size: 18px;
+  }
+  h5 {
+    font-size: 13px;
+  }
+  p1 {
+    font-size: 12px;
+    font-weight: 200;
+  }
+  p2 {
+    font-size: 9px;
+    font-weight: 200;
+  }
+  p3 {
+    font-size: 8px;
+    font-weight: 200;
+  }
+}
 /* 文字の下ライン */
+.line1 {
+  position: relative;
+}
+
+.line1 img {
+  width: 600px;
+  /* divの幅に対する割合 */
+}
+
+#line-1 {
+  position: absolute;
+  left: 0px;
+  top: -180px;
+}
+
+.line2 {
+  position: relative;
+}
+
+.line2 img {
+  margin-left: 210px;
+  width: 350px;
+  /* divの幅に対する割合 */
+}
+
+#line-2 {
+  position: absolute;
+  left: 0px;
+  top: -80px;
+}
+
+.line3 {
+  position: relative;
+}
+
+.line3 img {
+  position: relative;
+  width: 470px;
+  right: -180px;
+  /* divの幅に対する割合 */
+}
+
+#line-3 {
+  position: absolute;
+  left: 0px;
+  top: -70px;
+}
+
+.line4 {
+  position: relative;
+}
+
+.line4 img {
+  position: absolute;
+  width: 50%;
+  top: 100px;
+  left: 300px;
+}
+
 /* 1 */
 .dis {
   display: flex;
@@ -118,7 +204,25 @@ p3 {
   display: block;
 }
 
+/* レスポンシブ */
+@media screen and (max-width: 768px) {
+  .dis {
+    display: block;
+  }
+}
 /* 2 */
+/* 背景指紋 */
+.shimon {
+  position: absolute;
+  bottom: -800px;
+  z-index: 10%;
+}
+
+#shimonp {
+  position: relative;
+  z-index: 100%;
+}
+
 .p {
   width: 50%;
 }
@@ -128,6 +232,11 @@ p3 {
 }
 .picimg {
   width: 100%;
+}
+
+#UAEPIC,
+#CIPIC {
+  background-color: #C4DEFD;
 }
 
 .UAE-p {
@@ -158,6 +267,13 @@ p3 {
   color: white;
 }
 
+/* レスポンシブ */
+@media screen and (max-width: 768px) {
+  .plancontainer {
+    display: block;
+    text-align: center;
+  }
+}
 /* backgroundcolor青: #043873 */
 /* hover:0.7 */
 /* 青いボタンの色:#4f9cf9 */
