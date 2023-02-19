@@ -126,6 +126,11 @@ p3 {
   width: 100%;
 }
 
+#UAEPIC,
+#CIPIC {
+  background-color: #C4DEFD;
+}
+
 .UAE-p {
   width: 697px;
 }
