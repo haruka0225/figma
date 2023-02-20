@@ -52,6 +52,20 @@ header {
   margin-top: 16px;
 }
 
+@media screen and (max-width: 767px) {
+  header {
+    width: 100%;
+    display: block;
+  }
+  header-right ul {
+    display: none;
+  }
+  .header-left {
+    text-align: left;
+    margin-top: 0;
+    margin-left: 0;
+  }
+}
 /* メイン */
 section {
   background-color: #043873;
@@ -82,6 +96,19 @@ section1 {
     text-align: center;
   }
 }
+.GMD {
+  background-image: url(../../pics/Element.png);
+  background-repeat: no-repeat;
+  background-position: 0% 65%;
+  background-color: #043873;
+}
+
+.PM {
+  background-image: url(../../pics/simon.png);
+  background-repeat: no-repeat;
+  background-position: 0% 24%;
+}
+
 h1 {
   font-size: 72px;
   font-weight: 700;
@@ -206,6 +233,7 @@ p3 {
   z-index: 20;
 }
 
+/*  CYP*/
 .line5 {
   position: relative;
 }
@@ -235,11 +263,24 @@ p3 {
 @media screen and (max-width: 767px) {
   .dis {
     display: block;
-    text-align: center;
   }
 }
 /* 2 */
-/* 背景指紋 */
+#shimondis {
+  margin-top: 100px;
+}
+
+/* 3 */
+/* レスポンシブ */
+@media screen and (max-width: 767px) {
+  .dis {
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding: 60px 16px;
+    gap: 60px;
+  }
+}
 #UAEPIC,
 #CIPIC {
   background-color: #C4DEFD;
@@ -279,6 +320,7 @@ p3 {
   .plancontainer {
     display: block;
     text-align: center;
+    padding: 80px 16px;
   }
 }
 /* backgroundcolor青: #043873 */
