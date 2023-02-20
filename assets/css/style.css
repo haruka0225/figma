@@ -54,8 +54,7 @@ header {
 }
 
 /* メイン */
-section,
-footer {
+section {
   background-color: #043873;
   color: white;
   padding: 140px 0;
@@ -101,6 +100,35 @@ p3 {
   font-weight: 400;
 }
 
+/* フォントサイズレスポンシブ */
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 36px;
+    font-weight: 350;
+  }
+  h2 {
+    font-size: 32px;
+    font-weight: 350;
+  }
+  h4 {
+    font-size: 18px;
+  }
+  h5 {
+    font-size: 13px;
+  }
+  p1 {
+    font-size: 12px;
+    font-weight: 200;
+  }
+  p2 {
+    font-size: 9px;
+    font-weight: 200;
+  }
+  p3 {
+    font-size: 8px;
+    font-weight: 200;
+  }
+}
 /* 文字の下ライン */
 .line1 {
   position: relative;
@@ -150,6 +178,17 @@ p3 {
   top: -70px;
 }
 
+.line4 {
+  position: relative;
+}
+
+.line4 img {
+  position: absolute;
+  width: 50%;
+  top: 100px;
+  left: 300px;
+}
+
 /* 1 */
 .dis {
   display: flex;
@@ -164,6 +203,12 @@ p3 {
   display: block;
 }
 
+/* レスポンシブ */
+@media screen and (max-width: 768px) {
+  .dis {
+    display: block;
+  }
+}
 /* 2 */
 /* 背景指紋 */
 .shimon {
@@ -221,6 +266,13 @@ p3 {
   color: white;
 }
 
+/* レスポンシブ */
+@media screen and (max-width: 768px) {
+  .plancontainer {
+    display: block;
+    text-align: center;
+  }
+}
 /* backgroundcolor青: #043873 */
 /* hover:0.7 */
 /* 青いボタンの色:#4f9cf9 */
@@ -294,12 +346,6 @@ footer .btn:hover {
 }
 
 /* shotaro's 最初 */
-.container_4th,
-.container_5th {
-  /* margin: 0 auto; */
-  padding: 120px 0;
-}
-
 .haba {
   margin: 0 auto;
   width: 77%;
@@ -308,7 +354,9 @@ footer .btn:hover {
 .container_1st {
   background-image: url(../../shotaro_pics/likeafingerprint.png), url(../../shotaro_pics/blue_underline.png);
   background-repeat: no-repeat, no-repeat;
-  background-position: -3% 85%, 78% 33%;
+  background-position: 0% 75%, 78% 37%;
+  background-size: 472px, 353px;
+  background-blend-mode: lighten;
 }
 
 .haba .detail {
@@ -319,7 +367,6 @@ footer .btn:hover {
   gap: 60px;
 }
 .haba .detail h1 {
-  letter-spacing: -0.02em;
   line-height: 87px;
 }
 .haba .detail p2 {
@@ -335,15 +382,64 @@ footer .btn:hover {
 }
 
 .haba .btn {
-  margin: 60px auto;
+  margin: 0 auto;
   width: 184px;
 }
 
+@media screen and (max-width: 767px) {
+  .container_1st {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 100px 16px 140px;
+    background-image: url(../../shotaro_pics/blue_underline.png);
+    background-position: 50% 31%;
+    background-size: 170px;
+  }
+  .container_1st .haba {
+    width: 100%;
+  }
+  .container_1st .haba .detail {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    gap: 24px;
+    isolation: isolate;
+  }
+  .container_1st .haba .detail .text_detail {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    gap: 24px;
+    isolation: isolate;
+    text-align: center;
+  }
+  .container_1st .haba .detail .text_detail h1 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+  }
+  .container_1st .haba .detail .text_detail h1 span {
+    display: block;
+  }
+  .container_1st .haba .detail .text_detail p2 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .container_1st .haba .detail .text_detail p2 span {
+    display: block;
+  }
+}
 /* --8-- */
 .container_2nd {
   display: flex;
   flex-direction: row;
   align-items: center;
+  background-image: url(../../shotaro_pics/yellow_underline.png);
+  background-repeat: no-repeat;
+  background-position: 23% 37%;
+  background-size: 379px;
 }
 .container_2nd .haba {
   display: flex;
@@ -410,10 +506,15 @@ footer .btn:hover {
 
 /* --10-- */
 .container_4th {
+  padding: 140px 0;
+  background-image: url(../../shotaro_pics/wave.png);
+  background-repeat: no-repeat;
+}
+
+.container_4th .haba {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  padding: 140px 0;
   gap: 100px;
   isolation: isolate;
 }
@@ -423,42 +524,68 @@ footer .btn:hover {
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
+  text-align: start;
+  width: 55%;
 }
-
-.container_4th .img {
-  width: 700px;
-}
-
-.container_4th img {
-  width: 700px;
+.exp .btn {
+  margin: 60px 1px;
 }
 
 .image_apps {
-  width: 582px;
-}
-
-.image_apps img {
-  width: 582px;
+  width: 45%;
 }
 
 /* --11-- */
-.container_5th h1 {
-  margin-bottom: 40px;
+.container_5th {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 140px 0;
+  gap: 60px;
+  isolation: isolate;
+  background-image: url(../../shotaro_pics/yellow_underline.png);
+  background-repeat: no-repeat;
+  background-position: 71% 19%;
+  background-size: 280px;
 }
-
+.container_5th h1 {
+  letter-spacing: normal;
+  margin-bottom: 60px;
+}
 .container_5th .boxes {
   display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 32px;
+}
+.container_5th .info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 60px 40px 0 40px;
+  gap: 32px;
+}
+.container_5th .text {
+  text-align: start;
 }
 
-.boxes {
-  gap: 38px;
+.persona {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  padding: 60px 40px;
+  gap: 42px;
+}
+.persona .info_persona {
+  text-align: start;
 }
 
 .box1,
 .box2,
 .box3 {
   border-radius: 10px;
-  padding: 40px 20px;
 }
 .box1 .info_persona p1,
 .box2 .info_persona p1,
@@ -507,11 +634,6 @@ footer .btn:hover {
   margin-top: 40px;
 }
 
-.persona {
-  padding-top: 40px;
-  display: flex;
-}
-
 .img_persona {
   width: 200px;
 }
@@ -521,45 +643,159 @@ footer .btn:hover {
 }
 
 /* --12-- */
-.container_6th,
-footer {
-  padding: 120px 40px 0 40px;
+.container_6th {
+  padding: 140px 0 32px 0;
 }
-
-.container_6th h1 span {
-  display: block;
-}
-
 .container_6th .haba {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 40px;
 }
-.container_6th .haba .app-icon img {
-  width: 50px;
+.container_6th .haba h1 span {
+  display: block;
 }
-
-.informacion {
-  display: flex;
+.container_6th .haba .btn {
+  padding: 20px 40px;
+  width: 220px;
 }
-
-.btm {
-  display: flex;
-  justify-content: space-between;
-  padding: 32px 0;
-  height: 20px;
-}
-.btm .terms_condition {
-  display: flex;
-}
-.btm .terms_condition p3 {
-  margin-right: 60px;
-}
-.btm .social_icons {
+.container_6th .haba .app-icon {
   display: flex;
   flex-direction: row;
-  gap: 32px;
-  height: 20px;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 40px;
 }
-.btm .language {
+
+footer section {
+  background-color: #043873;
+  color: white;
+  text-align: center;
+  padding: 140px 0 32px;
+}
+footer section .haba {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 100px;
+  isolation: isolate;
+}
+footer section .haba .informacion {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 100px;
+}
+footer section .haba .aboutlogo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 15px;
+}
+footer section .haba .aboutlogo p2 {
+  width: 250px;
+  text-align: start;
+}
+footer section .haba .aboutproduct {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 15px;
+  text-align: start;
+}
+footer section .haba .aboutproduct p2 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+}
+footer section .haba .aboutproduct p3 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+footer section .haba .aboutproduct p3:first-of-type {
+  color: #FFE492;
+}
+footer section .haba .aboutproduct p3:last-of-type {
+  width: 200px;
+}
+footer section .haba .aboutresource, footer section .haba .aboutcompany {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
+  width: 190px;
+  text-align: start;
+}
+footer section .haba .aboutresource p2, footer section .haba .aboutcompany p2 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+}
+footer section .haba .aboutresource p3, footer section .haba .aboutcompany p3 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+footer section .haba .trybtn {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 23px;
+  text-align: start;
+  width: 270px;
+}
+footer section .haba .trybtn h5 {
+  font-size: 28px;
+  font-weight: 700;
+}
+footer section .haba .trybtn p3 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+footer section .haba .trybtn .btn {
+  width: 200px;
+  margin: 1px 0;
+}
+footer section .haba .btm {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 32.93px;
+  border-top: solid 1px #2E4E73;
+  gap: 624px;
+}
+footer section .haba .btm .terms_condition {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
   gap: 60px;
+}
+footer section .haba .btm .language {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 6px;
+}
+footer section .haba .btm .language img {
+  gap: 4px;
+}
+footer section .haba .btm .social_icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 32px;
 }/*# sourceMappingURL=style.css.map */

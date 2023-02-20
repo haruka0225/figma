@@ -77,8 +77,7 @@ header {
 
 /* メイン */
 
-section,
-footer {
+section{
 	background-color: #043873;
 	color: white;
 	padding: 140px 0;
@@ -242,7 +241,11 @@ p3 {
 	top: 100px;
 	left: 300px;
 	// /* divの幅に対する割合 */
+<<<<<<< HEAD
 }
+=======
+ }
+>>>>>>> 07574d3a8b1be9000390533cf8c045d3efd39350
 
 // #line-4 {
 // 	position:relative
@@ -448,13 +451,7 @@ footer .btn {
 }
 
 /* shotaro's 最初 */
-// .container_1st,
-// .container_4th,
-.container_5th {
-	/* margin: 0 auto; */
-	padding: 120px 0;
 
-}
 
 .haba {
 	margin: 0 auto;
@@ -467,8 +464,11 @@ footer .btn {
 	background-image: url(../../shotaro_pics/likeafingerprint.png),
 		url(../../shotaro_pics/blue_underline.png);
 	background-repeat: no-repeat, no-repeat;
-	background-position: -3% 85%, 78% 33%;
+	background-position: 0% 75%, 78% 37%;
+	background-size: 472px, 353px;
+	background-blend-mode: lighten;
 }
+<<<<<<< HEAD
 
 // .container_1st .haba{
 // 	position: relative;
@@ -482,6 +482,8 @@ footer .btn {
 //  	transform: rotate(-105deg);
 
 // }
+=======
+>>>>>>> 07574d3a8b1be9000390533cf8c045d3efd39350
 
 .haba .detail {
 	display: flex;
@@ -489,9 +491,14 @@ footer .btn {
 	align-items: center;
 	padding: 0px;
 	gap: 60px;
+<<<<<<< HEAD
 
 	h1 {
 		letter-spacing: -0.02em;
+=======
+	
+	h1{
+>>>>>>> 07574d3a8b1be9000390533cf8c045d3efd39350
 		line-height: 87px
 	}
 
@@ -511,8 +518,58 @@ footer .btn {
 }
 
 .haba .btn {
-	margin: 60px auto;
+	margin: 0 auto;
 	width: 184px;
+}
+@media screen and (max-width:767px){
+	.container_1st{
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		padding: 100px 16px 140px;
+		background-image: url(../../shotaro_pics/blue_underline.png);
+		background-position: 50% 31%;
+		background-size: 170px;
+		.haba{
+			width: 100%;
+			.detail{
+				display: flex;
+				flex-direction: column;
+				padding: 0px;
+				gap: 24px;
+				isolation: isolate;
+				.text_detail{
+					display: flex;
+					flex-direction: column;
+					padding: 0px;
+					gap: 24px;
+					isolation: isolate;
+					text-align: center;
+					h1{
+						font-weight: 700;
+						// text-align: center;
+						font-size: 36px;
+						line-height: 44px;
+						span{
+							display: block;
+						}
+					}
+					p2{
+						font-weight: 400;
+						font-size: 18px;
+						line-height: 30px;
+						span{
+							display: block;
+						}
+					}
+				}
+
+			}
+			
+		}
+		
+
+	}
 }
 
 /* --8-- */
@@ -520,8 +577,15 @@ footer .btn {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
+<<<<<<< HEAD
 
 	// padding: 140px 0;
+=======
+	background-image: url(../../shotaro_pics/yellow_underline.png);
+	background-repeat: no-repeat;
+	background-position: 23% 37%;
+	background-size: 379px;
+>>>>>>> 07574d3a8b1be9000390533cf8c045d3efd39350
 	.haba {
 		display: flex;
 		padding: 0;
@@ -640,7 +704,14 @@ footer .btn {
 	padding: 140px 0;
 	gap: 60px;
 	isolation: isolate;
+<<<<<<< HEAD
 
+=======
+	background-image: url(../../shotaro_pics/yellow_underline.png);
+	background-repeat: no-repeat;
+	background-position: 71% 19%;
+	background-size: 280px;
+>>>>>>> 07574d3a8b1be9000390533cf8c045d3efd39350
 	h1 {
 		letter-spacing: normal;
 		margin-bottom: 60px;
@@ -778,6 +849,7 @@ footer .btn {
 		}
 	}
 }
+// 	衝突ここから
 
 // .container_6th,
 // footer {
@@ -800,6 +872,7 @@ footer .btn {
 // .aboutlogo p2{
 // 	margin-top: 15px;
 // }
+
 
 .btm {
 	display: flex;
@@ -827,3 +900,142 @@ footer .btn {
 	}
 
 }
+// 	衝突ここまで
+
+
+// footer
+footer section{
+	background-color: #043873;
+	color: white;
+	text-align: center;
+	padding: 140px 0 32px;
+	.haba{
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		padding: 0px;
+		gap: 100px;
+		isolation: isolate;
+		.informacion{
+			display: flex;
+			flex-direction: row;
+			align-items: flex-start;
+			padding: 0px;
+			gap: 100px;
+		}
+		.aboutlogo{
+			display: flex;
+			flex-direction: column;
+			align-items: flex-start;
+			padding: 0px;
+			gap: 15px;
+			p2{
+				width: 250px;
+				text-align: start;
+			}
+		}
+		.aboutproduct{
+			display: flex;
+			flex-direction: column;
+			align-items: flex-start;
+			padding: 0px;
+			gap: 15px;
+			text-align: start;
+			p2{
+				font-weight: 700;
+				font-size: 18px;
+				line-height: 22px;
+			}
+			p3{
+				font-weight: 400;
+				font-size: 16px;
+				line-height: 20px;
+				&:first-of-type{
+					color: #FFE492;
+				}
+				&:last-of-type{
+					width: 200px;
+				}
+			}
+		}
+		.aboutresource, .aboutcompany{
+			display: flex;
+			flex-direction: column;
+			align-items: flex-start;
+			padding: 0px;
+			gap: 16px;
+			width: 190px;
+			text-align: start;
+			p2{
+				font-weight: 700;
+				font-size: 18px;
+				line-height: 22px;
+			}
+			p3{
+				font-weight: 400;
+				font-size: 16px;
+				line-height: 20px;
+			}
+		}
+		.trybtn{
+			display: flex;
+			flex-direction: column;
+			align-items: flex-start;
+			padding: 0px;
+			gap: 23px;
+			text-align: start;
+			width: 270px;
+			h5{
+				font-size: 28px;
+				font-weight: 700;
+			}
+			p3{
+				font-weight: 400;
+				font-size: 16px;
+				line-height: 20px;
+			}
+			.btn{
+				width: 200px;
+				margin: 1px 0;
+			}
+		}
+	
+		.btm{
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+			align-items: center;
+			padding-top: 32.93px;
+			border-top: solid 1px #2E4E73;
+			gap: 624px;
+
+			.terms_condition{
+				display: flex;
+				flex-direction: row;
+				align-items: center;
+				padding: 0px;
+				gap: 60px;
+			}
+			.language{
+				display: flex;
+				flex-direction: row;
+				justify-content: center;
+				align-items: center;
+				padding: 0px;
+				gap: 6px;
+				img{
+					gap: 4px;
+				}
+			}
+			.social_icons{
+				display: flex;
+				flex-direction: row;
+				align-items: center;
+				padding: 0px;
+				gap: 32px;
+			}
+		}
+	}
+	
+}
+
