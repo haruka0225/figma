@@ -101,10 +101,10 @@ p3 {
 }
 
 /* フォントサイズレスポンシブ */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   h1 {
     font-size: 36px;
-    font-weight: 350;
+    font-weight: 700;
   }
   h2 {
     font-size: 32px;
@@ -204,7 +204,7 @@ p3 {
 }
 
 /* レスポンシブ */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .dis {
     display: block;
   }
@@ -267,7 +267,7 @@ p3 {
 }
 
 /* レスポンシブ */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .plancontainer {
     display: block;
     text-align: center;
@@ -391,10 +391,10 @@ footer .btn:hover {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 100px 16px 140px;
+    padding: 0;
     background-image: url(../../shotaro_pics/blue_underline.png);
-    background-position: 50% 31%;
-    background-size: 170px;
+    background-position: 50% 29%;
+    background-size: 171px;
   }
   .container_1st .haba {
     width: 100%;
@@ -402,14 +402,14 @@ footer .btn:hover {
   .container_1st .haba .detail {
     display: flex;
     flex-direction: column;
-    padding: 0px;
+    padding: 100px 16px 140px;
     gap: 24px;
     isolation: isolate;
   }
   .container_1st .haba .detail .text_detail {
     display: flex;
     flex-direction: column;
-    padding: 0px;
+    padding-bottom: 60px;
     gap: 24px;
     isolation: isolate;
     text-align: center;
@@ -429,6 +429,11 @@ footer .btn:hover {
   }
   .container_1st .haba .detail .text_detail p2 span {
     display: block;
+  }
+  .container_1st .haba .detail .btn {
+    position: relative;
+    bottom: 0px;
+    right: 63px;
   }
 }
 /* --8-- */
@@ -470,13 +475,51 @@ footer .btn:hover {
   width: 45%;
 }
 
-.haba .words {
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  flex-direction: column;
+@media screen and (max-width: 767px) {
+  .container_2nd {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 16px;
+    gap: 100px;
+    background-image: url(../../shotaro_pics/yellow_underline.png);
+    background-position: 66% 22%;
+    background-size: 200px;
+    width: 100%;
+  }
+  .container_2nd .words_line {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .container_2nd .words_line .words_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+    isolation: isolate;
+    text-align: center;
+  }
+  .container_2nd .words_line .words_text h1 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+  }
+  .container_2nd .words_line .words_text p2 {
+    font-weight: 400;
+    font-size: 18px;
+  }
+  .container_2nd .btn {
+    margin: 0 50px;
+  }
+  .container_2nd .halffan {
+    margin-top: 100px;
+    width: 100%;
+  }
 }
-
 /* --9-- */
 .container_3rd {
   background-image: url(../../shotaro_pics/yellow_underline.png);
@@ -504,6 +547,34 @@ footer .btn:hover {
   gap: 100px;
 }
 
+@media screen and (max-width: 767px) {
+  .container_3rd {
+    background-image: url(../../shotaro_pics/yellow_underline.png);
+    background-position: 50% 12%;
+    background-size: 371px;
+  }
+  .sponsors {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 16px;
+    gap: 100px;
+    isolation: isolate;
+  }
+  .sponsors h1 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+  }
+  .container_3rd .figures {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 100px;
+  }
+}
 /* --10-- */
 .container_4th {
   padding: 140px 0;
@@ -535,6 +606,28 @@ footer .btn:hover {
   width: 45%;
 }
 
+@media screen and (max-width: 767px) {
+  .container_4th {
+    padding: 0;
+  }
+  .container_4th .haba {
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    padding: 80px 16px;
+    gap: 100px;
+    isolation: isolate;
+  }
+  .container_4th .haba .image_apps {
+    width: 100%;
+  }
+  .container_4th .haba .exp {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+}
 /* --11-- */
 .container_5th {
   display: flex;
@@ -642,6 +735,27 @@ footer .btn:hover {
   width: 200px;
 }
 
+@media screen and (max-width: 767px) {
+  .container_5th {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 16px;
+    gap: 60px;
+    isolation: isolate;
+  }
+  .container_5th .haba {
+    width: 100%;
+  }
+  .container_5th .haba .box1 {
+    margin: auto 0;
+  }
+  .container_5th .haba .box2,
+  .container_5th .haba .box3 {
+    display: none;
+  }
+}
 /* --12-- */
 .container_6th {
   padding: 140px 0 32px 0;
@@ -668,6 +782,38 @@ footer .btn:hover {
   gap: 40px;
 }
 
+@media screen and (max-width: 767px) {
+  .container_6th {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 100px 16px 32px;
+    gap: 200px;
+  }
+  .container_6th .haba {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+    text-align: start;
+  }
+  .container_6th .haba h1 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+  }
+  .container_6th .haba p1 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .container_6th .haba .btn {
+    position: relative;
+    right: 180px;
+  }
+}
 footer section {
   background-color: #043873;
   color: white;
@@ -724,7 +870,8 @@ footer section .haba .aboutproduct p3:first-of-type {
 footer section .haba .aboutproduct p3:last-of-type {
   width: 200px;
 }
-footer section .haba .aboutresource, footer section .haba .aboutcompany {
+footer section .haba .aboutresource,
+footer section .haba .aboutcompany {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -733,12 +880,14 @@ footer section .haba .aboutresource, footer section .haba .aboutcompany {
   width: 190px;
   text-align: start;
 }
-footer section .haba .aboutresource p2, footer section .haba .aboutcompany p2 {
+footer section .haba .aboutresource p2,
+footer section .haba .aboutcompany p2 {
   font-weight: 700;
   font-size: 18px;
   line-height: 22px;
 }
-footer section .haba .aboutresource p3, footer section .haba .aboutcompany p3 {
+footer section .haba .aboutresource p3,
+footer section .haba .aboutcompany p3 {
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
@@ -798,4 +947,53 @@ footer section .haba .btm .social_icons {
   align-items: center;
   padding: 0px;
   gap: 32px;
+}
+
+@media screen and (max-width: 767px) {
+  footer section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 140px 16px 32px;
+    gap: 200px;
+  }
+  footer section .haba {
+    width: 100%;
+    align-items: center;
+  }
+  footer section .haba .informacion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 80px;
+  }
+  footer section .haba .informacion .aboutlogo,
+  footer section .haba .informacion .aboutproduct,
+  footer section .haba .informacion .aboutresource,
+  footer section .haba .informacion .aboutcompany,
+  footer section .haba .informacion .trybtn {
+    align-items: center;
+  }
+  footer section .haba .informacion .aboutproduct p3:last-of-type {
+    width: auto;
+  }
+  footer section .haba .btm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 20px;
+  }
+  footer section .haba .btm .terms_condition {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px 20px;
+    gap: 20px;
+  }
 }/*# sourceMappingURL=style.css.map */
