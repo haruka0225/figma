@@ -3,11 +3,6 @@
 /* サイト幅 77%*/
 /*　スマホサイト幅 100%*/
 /* max-width:1920px */
-/* @media (min-width: 1280px) {
-	header, section, footer{
-		padding: 1rem calc(50% - (1280px / 2));
-	} */
-/* } */
 /* 全体 */
 * {
   /* font-family: 'Inter'; */
@@ -19,22 +14,28 @@
   margin-right: 220px;*/
 }
 
-/* ヘッダー */
+@media screen and (max-width: 767px) {
+  * {
+    max-width: 767px;
+  }
+}
 header {
   height: 92px;
   background-color: #043873;
   color: white;
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
   width: 100%;
+  margin-right: 220px;
+}
+
+.header-right {
+  margin-right: 220px;
 }
 
 .header-right ul {
   display: flex;
   align-items: center;
-  padding: 16px 0;
-  margin-right: 220px;
-  margin-top: 10px;
 }
 
 .header-right li {
@@ -44,13 +45,7 @@ header {
 .header-left {
   text-align: center;
   margin-top: 20px;
-}
-
-/* 背景 */
-.GMD {
-  background-image: url(./Element.png);
-  background-repeat: center;
-  background-size: cover;
+  margin-left: 220px;
 }
 
 /* メイン */
@@ -61,12 +56,28 @@ section {
   text-align: center;
 }
 
+@media screen and (max-width: 767px) {
+  section {
+    background-color: #043873;
+    color: white;
+    padding: 100px 16px;
+    text-align: center;
+  }
+}
 section1 {
   background-color: white;
   padding: 140px 0;
   text-align: center;
 }
 
+@media screen and (max-width: 767px) {
+  section {
+    background-color: #043873;
+    color: white;
+    padding: 100px 16px;
+    text-align: center;
+  }
+}
 h1 {
   font-size: 72px;
   font-weight: 700;
@@ -101,7 +112,7 @@ p3 {
 }
 
 /* フォントサイズレスポンシブ */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   h1 {
     font-size: 36px;
     font-weight: 350;
@@ -204,9 +215,10 @@ p3 {
 }
 
 /* レスポンシブ */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .dis {
     display: block;
+    text-align: center;
   }
 }
 /* 2 */
@@ -365,14 +377,22 @@ footer .btn:hover {
   align-items: center;
   padding: 0px;
   gap: 60px;
+  /* --8-- */
+  /* --9-- */
+  /* --10-- */
+  /* --11-- */
+  /* --12-- */
 }
-.haba .detail h1 {
+.haba .detail HEAD h1 {
+  letter-spacing: -0.02em;
+}
+.haba .detail HEAD h1 h1 {
   line-height: 87px;
 }
-.haba .detail p2 {
+.haba .detail HEAD h1 p2 {
   width: 1155px;
 }
-.haba .detail .text_detail {
+.haba .detail HEAD h1 .text_detail {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -380,14 +400,12 @@ footer .btn:hover {
   gap: 24px;
   isolation: isolate;
 }
-
-.haba .btn {
+.haba .detail .haba .btn {
   margin: 0 auto;
   width: 184px;
 }
-
 @media screen and (max-width: 767px) {
-  .container_1st {
+  .haba .detail .container_1st {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -396,17 +414,17 @@ footer .btn:hover {
     background-position: 50% 31%;
     background-size: 170px;
   }
-  .container_1st .haba {
+  .haba .detail .container_1st .haba {
     width: 100%;
   }
-  .container_1st .haba .detail {
+  .haba .detail .container_1st .haba .detail {
     display: flex;
     flex-direction: column;
     padding: 0px;
     gap: 24px;
     isolation: isolate;
   }
-  .container_1st .haba .detail .text_detail {
+  .haba .detail .container_1st .haba .detail .text_detail {
     display: flex;
     flex-direction: column;
     padding: 0px;
@@ -414,25 +432,24 @@ footer .btn:hover {
     isolation: isolate;
     text-align: center;
   }
-  .container_1st .haba .detail .text_detail h1 {
+  .haba .detail .container_1st .haba .detail .text_detail h1 {
     font-weight: 700;
     font-size: 36px;
     line-height: 44px;
   }
-  .container_1st .haba .detail .text_detail h1 span {
+  .haba .detail .container_1st .haba .detail .text_detail h1 span {
     display: block;
   }
-  .container_1st .haba .detail .text_detail p2 {
+  .haba .detail .container_1st .haba .detail .text_detail p2 {
     font-weight: 400;
     font-size: 18px;
     line-height: 30px;
   }
-  .container_1st .haba .detail .text_detail p2 span {
+  .haba .detail .container_1st .haba .detail .text_detail p2 span {
     display: block;
   }
 }
-/* --8-- */
-.container_2nd {
+.haba .detail .container_2nd {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -441,12 +458,12 @@ footer .btn:hover {
   background-position: 23% 37%;
   background-size: 379px;
 }
-.container_2nd .haba {
+.haba .detail .container_2nd .haba {
   display: flex;
   padding: 0;
   text-align: start;
 }
-.container_2nd .words_line {
+.haba .detail .container_2nd .words_line {
   display: flex;
   flex-direction: column;
   text-align: start;
@@ -454,7 +471,7 @@ footer .btn:hover {
   gap: 60px;
   width: 55%;
 }
-.container_2nd .words_text {
+.haba .detail .container_2nd .words_text {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -462,29 +479,25 @@ footer .btn:hover {
   gap: 24px;
   isolation: isolate;
 }
-.container_2nd .btn {
+.haba .detail .container_2nd .btn {
   margin: 1px 0;
   padding: 20px 40px;
 }
-.container_2nd .halffan {
+.haba .detail .container_2nd .halffan {
   width: 45%;
 }
-
-.haba .words {
+.haba .detail .haba .words {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
   flex-direction: column;
 }
-
-/* --9-- */
-.container_3rd {
+.haba .detail .container_3rd {
   background-image: url(../../shotaro_pics/yellow_underline.png);
   background-repeat: no-repeat;
   background-position: 58% 35%;
 }
-
-.sponsors {
+.haba .detail .sponsors {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -493,8 +506,7 @@ footer .btn:hover {
   gap: 100px;
   isolation: isolate;
 }
-
-.container_3rd .figures {
+.haba .detail .container_3rd .figures {
   margin-top: 60px;
   display: flex;
   flex-direction: row;
@@ -503,23 +515,19 @@ footer .btn:hover {
   padding: 0px;
   gap: 100px;
 }
-
-/* --10-- */
-.container_4th {
+.haba .detail .container_4th {
   padding: 140px 0;
   background-image: url(../../shotaro_pics/wave.png);
   background-repeat: no-repeat;
 }
-
-.container_4th .haba {
+.haba .detail .container_4th .haba {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   gap: 100px;
   isolation: isolate;
 }
-
-.exp {
+.haba .detail .exp {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -527,16 +535,13 @@ footer .btn:hover {
   text-align: start;
   width: 55%;
 }
-.exp .btn {
+.haba .detail .exp .btn {
   margin: 60px 1px;
 }
-
-.image_apps {
+.haba .detail .image_apps {
   width: 45%;
 }
-
-/* --11-- */
-.container_5th {
+.haba .detail .container_5th {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -549,132 +554,142 @@ footer .btn:hover {
   background-position: 71% 19%;
   background-size: 280px;
 }
-.container_5th h1 {
+.haba .detail .container_5th h1 {
   letter-spacing: normal;
   margin-bottom: 60px;
 }
-.container_5th .boxes {
+.haba .detail .container_5th .boxes {
   display: flex;
   flex-direction: row;
   align-items: center;
   padding: 0px;
   gap: 32px;
 }
-.container_5th .info {
+.haba .detail .container_5th .info {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   padding: 60px 40px 0 40px;
   gap: 32px;
 }
-.container_5th .text {
+.haba .detail .container_5th .text {
   text-align: start;
 }
-
-.persona {
+.haba .detail .persona {
   display: flex;
   flex-direction: row;
   align-items: flex-end;
   padding: 60px 40px;
   gap: 42px;
 }
-.persona .info_persona {
+.haba .detail .persona .info_persona {
   text-align: start;
 }
-
-.box1,
-.box2,
-.box3 {
+.haba .detail .box1,
+.haba .detail .box2,
+.haba .detail .box3 {
   border-radius: 10px;
 }
-.box1 .info_persona p1,
-.box2 .info_persona p1,
-.box3 .info_persona p1 {
+.haba .detail .box1 .info_persona p1,
+.haba .detail .box2 .info_persona p1,
+.haba .detail .box3 .info_persona p1 {
   padding-bottom: 15px;
 }
-
-.box1 {
+.haba .detail .box1 {
   box-shadow: 15px 10px 50px rgba(0, 0, 0, 0.1);
 }
-.box1 .info {
+.haba .detail .box1 .info {
   padding-bottom: 20px;
   border-bottom: 1px solid black;
 }
-
-.box2,
-.box3 {
+.haba .detail .box2,
+.haba .detail .box3 {
   background-color: #4F9CF9;
   color: white;
 }
-.box2 .info_persona p1,
-.box3 .info_persona p1 {
+.haba .detail .box2 .info_persona p1,
+.haba .detail .box3 .info_persona p1 {
   color: black;
 }
-
-.box1 .info {
+.haba .detail .box1 .info {
   padding-bottom: 20px;
   border-bottom: 1px solid black;
 }
-
-.box2 .info {
+.haba .detail .box2 .info {
   padding-bottom: 20px;
   border-bottom: 1px solid white;
 }
-
-.box3 .info {
+.haba .detail .box3 .info {
   padding-bottom: 20px;
   border-bottom: 1px solid white;
 }
-
-.info img {
+.haba .detail .info img {
   margin-bottom: 15px;
 }
-
-.container_5th .slider_img {
+.haba .detail .container_5th .slider_img {
   margin-top: 40px;
 }
-
-.img_persona {
+.haba .detail .img_persona {
   width: 200px;
 }
-
-.img_persona img {
+.haba .detail .img_persona img {
   width: 200px;
 }
-
-/* --12-- */
-.container_6th {
+.haba .detail .container_6th {
   padding: 140px 0 32px 0;
 }
-.container_6th .haba {
+.haba .detail .container_6th .haba {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 0px;
   gap: 40px;
 }
-.container_6th .haba h1 span {
+.haba .detail .container_6th .haba h1 span {
   display: block;
 }
-.container_6th .haba .btn {
+.haba .detail .container_6th .haba .btn {
   padding: 20px 40px;
   width: 220px;
 }
-.container_6th .haba .app-icon {
+.haba .detail .container_6th .haba .app-icon {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   padding: 0px;
   gap: 40px;
 }
-
-footer section {
+.haba .detail .informacion {
+  display: flex;
+}
+.haba .detail .btm {
+  display: flex;
+  justify-content: space-between;
+  padding: 32px 0;
+  height: 20px;
+}
+.haba .detail .btm .terms_condition {
+  display: flex;
+}
+.haba .detail .btm .terms_condition p3 {
+  margin-right: 60px;
+}
+.haba .detail .btm .social_icons {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  height: 20px;
+}
+.haba .detail .btm .language {
+  gap: 60px;
+}
+.haba .detail footer section {
   background-color: #043873;
   color: white;
   text-align: center;
   padding: 140px 0 32px;
 }
-footer section .haba {
+.haba .detail footer section .haba {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -682,25 +697,25 @@ footer section .haba {
   gap: 100px;
   isolation: isolate;
 }
-footer section .haba .informacion {
+.haba .detail footer section .haba .informacion {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   padding: 0px;
   gap: 100px;
 }
-footer section .haba .aboutlogo {
+.haba .detail footer section .haba .aboutlogo {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   padding: 0px;
   gap: 15px;
 }
-footer section .haba .aboutlogo p2 {
+.haba .detail footer section .haba .aboutlogo p2 {
   width: 250px;
   text-align: start;
 }
-footer section .haba .aboutproduct {
+.haba .detail footer section .haba .aboutproduct {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -708,23 +723,24 @@ footer section .haba .aboutproduct {
   gap: 15px;
   text-align: start;
 }
-footer section .haba .aboutproduct p2 {
+.haba .detail footer section .haba .aboutproduct p2 {
   font-weight: 700;
   font-size: 18px;
   line-height: 22px;
 }
-footer section .haba .aboutproduct p3 {
+.haba .detail footer section .haba .aboutproduct p3 {
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
 }
-footer section .haba .aboutproduct p3:first-of-type {
+.haba .detail footer section .haba .aboutproduct p3:first-of-type {
   color: #FFE492;
 }
-footer section .haba .aboutproduct p3:last-of-type {
+.haba .detail footer section .haba .aboutproduct p3:last-of-type {
   width: 200px;
 }
-footer section .haba .aboutresource, footer section .haba .aboutcompany {
+.haba .detail footer section .haba .aboutresource,
+.haba .detail footer section .haba .aboutcompany {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -733,17 +749,19 @@ footer section .haba .aboutresource, footer section .haba .aboutcompany {
   width: 190px;
   text-align: start;
 }
-footer section .haba .aboutresource p2, footer section .haba .aboutcompany p2 {
+.haba .detail footer section .haba .aboutresource p2,
+.haba .detail footer section .haba .aboutcompany p2 {
   font-weight: 700;
   font-size: 18px;
   line-height: 22px;
 }
-footer section .haba .aboutresource p3, footer section .haba .aboutcompany p3 {
+.haba .detail footer section .haba .aboutresource p3,
+.haba .detail footer section .haba .aboutcompany p3 {
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
 }
-footer section .haba .trybtn {
+.haba .detail footer section .haba .trybtn {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -752,20 +770,20 @@ footer section .haba .trybtn {
   text-align: start;
   width: 270px;
 }
-footer section .haba .trybtn h5 {
+.haba .detail footer section .haba .trybtn h5 {
   font-size: 28px;
   font-weight: 700;
 }
-footer section .haba .trybtn p3 {
+.haba .detail footer section .haba .trybtn p3 {
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
 }
-footer section .haba .trybtn .btn {
+.haba .detail footer section .haba .trybtn .btn {
   width: 200px;
   margin: 1px 0;
 }
-footer section .haba .btm {
+.haba .detail footer section .haba .btm {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -774,14 +792,14 @@ footer section .haba .btm {
   border-top: solid 1px #2E4E73;
   gap: 624px;
 }
-footer section .haba .btm .terms_condition {
+.haba .detail footer section .haba .btm .terms_condition {
   display: flex;
   flex-direction: row;
   align-items: center;
   padding: 0px;
   gap: 60px;
 }
-footer section .haba .btm .language {
+.haba .detail footer section .haba .btm .language {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -789,10 +807,10 @@ footer section .haba .btm .language {
   padding: 0px;
   gap: 6px;
 }
-footer section .haba .btm .language img {
+.haba .detail footer section .haba .btm .language img {
   gap: 4px;
 }
-footer section .haba .btm .social_icons {
+.haba .detail footer section .haba .btm .social_icons {
   display: flex;
   flex-direction: row;
   align-items: center;
