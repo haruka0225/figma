@@ -34,10 +34,10 @@ header {
 	display: flex;
 	justify-content: space-between;
 	width: 100%;
-margin-right: 220px;
+	margin-right: 220px;
 }
 
-.header-right{
+.header-right {
 	margin-right: 220px;
 
 }
@@ -61,7 +61,7 @@ margin-right: 220px;
 
 }
 
-
+#headerbtn{margin-top: 16px;}
 
 
 /* メイン */
@@ -108,7 +108,7 @@ section1 {
 // GMD {
 // 	padding: 140px 0;
 // 	background: white url(./pics/Element.png) no-repeat ;
-	
+
 // }
 
 // .haba {
@@ -255,46 +255,34 @@ p3 {
 
 }
 
-// // /* CI */
+ // /* CI */
 
 .line4 {
 	position: relative;
-
+	z-index: 100;
 }
 
 .line4 img {
 	position: absolute;
-	width: 50%;
-	top: 100px;
-	left: 300px;
-	// /* divの幅に対する割合 */
+	width: 46%;
+	top: 185px;
+	left: 0px;
+	z-index: 20;
+}
+
+// // // /*  CYP*/
+
+.line5 {
+	position: relative;
 
 }
 
+.line5 img {
+	position: absolute;
+	top: 80px;
+	width: 350px;
+}
 
-
-// #line-4 {
-// 	position:relative
-
-
-// // // /*  CYP*/
-// .line5 {
-// 	position: relative;
-
-// }
-
-// .line5 img {
-// 	position: absolute;
-// 	top: -50px;
-// 	left: 300px;
-// 	width: 500px;
-// }
-
-// #line-5 {
-// 	position: absolute;
-// // 	left: 400px;
-// // 	top: -100px;
-// // }
 
 
 
@@ -310,7 +298,9 @@ p3 {
 
 .p {
 	display: block;
+	gap: 60px;
 }
+
 
 /* レスポンシブ */
 @media screen and (max-width:767px) {
@@ -324,31 +314,35 @@ p3 {
 /* 2 */
 /* 背景指紋 */
 
+// #PM{
+// 	background-image: url(../../pics/simon.png);
 
-.shimon {
-	position: absolute;
-	bottom: -800px;
-	z-index: 10%;
-}
+// }
 
-#shimonp {
-	position: relative;
-	z-index: 100%;
-}
+// .shimon {
+// 	position: absolute;
+// 	bottom: -800px;
+// 	z-index: 10%;
+// }
+
+// #shimonp {
+// 	position: relative;
+// 	z-index: 100%;
+// }
 
 
-.p {
-	width: 50%;
+// .p {
+// 	width: 50%;
 
-}
+// }
 
-.pic {
-	width: 50%;
+// .pic {
+// 	width: 50%;
 
-	&img {
-		width: 100%;
-	}
-}
+// 	&img {
+// 		width: 100%;
+// 	}
+// }
 
 
 #UAEPIC,
@@ -369,7 +363,7 @@ p3 {
 .plancontainer {
 	display: flex;
 	padding: 140px 0;
-
+	row-gap:25px;
 }
 
 .plan {
@@ -414,6 +408,7 @@ p3 {
 	background-color: #4f9cf9;
 	border-radius: 8px;
 	padding: 16px 24px;
+	margin-top:60px;
 
 	&:hover {
 		opacity: 0.7;
@@ -423,6 +418,7 @@ p3 {
 
 .GMD .btn {
 	padding: 20px;
+	margin-top:60px;
 
 	&:hover {
 		opacity: 0.7;
@@ -442,6 +438,7 @@ p3 {
 .container_6th .btn,
 footer .btn {
 	padding: 20px 40px;
+	margin-top:60px;
 
 	&:hover {
 		opacity: 0.7;
@@ -450,6 +447,7 @@ footer .btn {
 
 .CYP .btn {
 	padding: 16px 40px;
+	margin-top: 60px;
 
 	&:hover {
 		opacity: 0.7;
@@ -463,6 +461,7 @@ footer .btn {
 	background-color: #ffe492;
 	border-radius: 8px;
 	padding: 16px 40px;
+	margin-top: 16px;
 }
 
 .head-btn:hover {
@@ -735,7 +734,7 @@ footer .btn {
 		background-position: 71% 19%;
 		background-size: 280px;
 
-	 h1 {
+		h1 {
 			letter-spacing: normal;
 			margin-bottom: 60px;
 		}

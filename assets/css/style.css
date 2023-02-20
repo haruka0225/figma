@@ -48,6 +48,10 @@ header {
   margin-left: 220px;
 }
 
+#headerbtn {
+  margin-top: 16px;
+}
+
 /* メイン */
 section {
   background-color: #043873;
@@ -191,13 +195,25 @@ p3 {
 
 .line4 {
   position: relative;
+  z-index: 100;
 }
 
 .line4 img {
   position: absolute;
-  width: 50%;
-  top: 100px;
-  left: 300px;
+  width: 46%;
+  top: 185px;
+  left: 0px;
+  z-index: 20;
+}
+
+.line5 {
+  position: relative;
+}
+
+.line5 img {
+  position: absolute;
+  top: 80px;
+  width: 350px;
 }
 
 /* 1 */
@@ -212,6 +228,7 @@ p3 {
 
 .p {
   display: block;
+  gap: 60px;
 }
 
 /* レスポンシブ */
@@ -223,28 +240,6 @@ p3 {
 }
 /* 2 */
 /* 背景指紋 */
-.shimon {
-  position: absolute;
-  bottom: -800px;
-  z-index: 10%;
-}
-
-#shimonp {
-  position: relative;
-  z-index: 100%;
-}
-
-.p {
-  width: 50%;
-}
-
-.pic {
-  width: 50%;
-}
-.picimg {
-  width: 100%;
-}
-
 #UAEPIC,
 #CIPIC {
   background-color: #C4DEFD;
@@ -258,6 +253,7 @@ p3 {
 .plancontainer {
   display: flex;
   padding: 140px 0;
+  row-gap: 25px;
 }
 
 .plan {
@@ -293,6 +289,7 @@ p3 {
   background-color: #4f9cf9;
   border-radius: 8px;
   padding: 16px 24px;
+  margin-top: 60px;
 }
 .btn:hover {
   opacity: 0.7;
@@ -300,6 +297,7 @@ p3 {
 
 .GMD .btn {
   padding: 20px;
+  margin-top: 60px;
 }
 .GMD .btn:hover {
   opacity: 0.7;
@@ -317,6 +315,7 @@ p3 {
 .container_6th .btn,
 footer .btn {
   padding: 20px 40px;
+  margin-top: 60px;
 }
 .PM .btn:hover,
 .WT .btn:hover,
@@ -334,6 +333,7 @@ footer .btn:hover {
 
 .CYP .btn {
   padding: 16px 40px;
+  margin-top: 60px;
 }
 .CYP .btn:hover {
   opacity: 0.7;
@@ -345,6 +345,7 @@ footer .btn:hover {
   background-color: #ffe492;
   border-radius: 8px;
   padding: 16px 40px;
+  margin-top: 16px;
 }
 
 .head-btn:hover {
