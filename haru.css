@@ -1,0 +1,32 @@
+	/* --10-- */
+	.GMD {
+		padding: 140px 0;
+		background-image: url(../../shotaro_pics/wave.png);
+		background-repeat: no-repeat;
+	}
+
+	.haba {
+		display: flex;
+		flex-direction: row;
+		align-items: flex-start;
+		padding: 140px 0;
+		gap: 100px;
+		isolation: isolate;
+	}
+
+	.dis {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		justify-content: flex-start;
+		text-align: start;
+		width: 55%;
+
+		.btn {
+			margin: 60px 1px;
+		}
+	}
+
+	/* .image_apps {
+		width: 45%;
+	} */

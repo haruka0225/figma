@@ -59,14 +59,23 @@ header ul {
 
 
 
-
+/* 
 /* 背景 */
-.kv {
-	height: 100vh;
-	background-image: url(./pics/Element.png);
-	background-repeat: center;
-	background-size: cover;
+GMD {
+	padding: 140px 0;
+	background: white url(./pics/Element.png) no-repeat ;
+	
 }
+
+.haba {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 140px 0;
+	gap: 100px;
+	isolation: isolate;
+}
+
 
 /* メイン */
 
@@ -118,6 +127,8 @@ p3 {
 	display: block;
 }
 
+
+
 /* 6 */
 
 .plancontainer {
@@ -149,6 +160,7 @@ p3 {
 	background-color: #4f9cf9;
 	border-radius: 8px;
 	padding: 16px 24px;
+	
 }
 
 .GMD .btn {
